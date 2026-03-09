@@ -1,0 +1,48 @@
+{
+	"name": "ADLSSourceLinkedServicesss",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage7",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "addresses.csv",
+				"fileSystem": "kambampati12345"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "John",
+				"type": "String"
+			},
+			{
+				"name": "Doe",
+				"type": "String"
+			},
+			{
+				"name": "120 jefferson st.",
+				"type": "String"
+			},
+			{
+				"name": "Riverside",
+				"type": "String"
+			},
+			{
+				"name": " NJ",
+				"type": "String"
+			},
+			{
+				"name": " 08075",
+				"type": "String"
+			}
+		]
+	}
+}
