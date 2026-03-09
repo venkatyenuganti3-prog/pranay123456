@@ -1,0 +1,18 @@
+{
+	"name": "Json6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage11",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "targetdatabase"
+			}
+		},
+		"schema": {}
+	}
+}
