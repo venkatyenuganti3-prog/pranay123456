@@ -1,0 +1,9 @@
+{
+	"name": "notuse12345",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1fed102e-3fe4-4423-81a9-4fab12e8d41a",
+		"tenantId": "2d1ea684-8b47-41c9-a580-011ccdbb4953"
+	}
+}
