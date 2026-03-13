@@ -17,8 +17,27 @@
 				"typeProperties": {
 					"enableStaging": false
 				}
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "myvar",
+					"value": "test"
+				}
 			}
 		],
+		"variables": {
+			"myvar": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
